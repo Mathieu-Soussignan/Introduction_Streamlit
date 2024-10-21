@@ -1,4 +1,4 @@
-Introduction à Streamlit et Analyse des données Iris
+# Introduction à Streamlit et Analyse des données Iris
 
 Cette application Streamlit est un exemple d'introduction aux fonctionnalités de base de Streamlit, ainsi qu'une analyse des données du jeu de données *Iris*. Elle inclut des fonctionnalités d'affichage, de filtrage de données, de gestion des interactions utilisateur, de visualisation de graphiques, et de téléchargement de fichiers.
 
