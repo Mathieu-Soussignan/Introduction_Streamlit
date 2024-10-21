@@ -1,0 +1,218 @@
+2024-10-21 10:29:57,859 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:29:57,862 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:29:57,862 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:29:57,863 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:29:57,863 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:29:59,189 - INFO - Graphique de paires affiché.
+2024-10-21 10:29:59,190 - INFO - Chargement des données Iris.
+2024-10-21 10:29:59,194 - INFO - DataFrame filtré affiché.
+2024-10-21 10:29:59,195 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:30:00,095 - INFO - Graphique de paires filtré affiché.
+2024-10-21 10:30:00,095 - INFO - Nombre de filtrages : 1
+2024-10-21 10:30:20,506 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:30:20,511 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:30:20,512 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:30:20,512 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:30:20,512 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:30:21,866 - INFO - Graphique de paires affiché.
+2024-10-21 10:30:21,868 - INFO - DataFrame filtré affiché.
+2024-10-21 10:30:21,869 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:30:22,815 - INFO - Graphique de paires filtré affiché.
+2024-10-21 10:30:22,816 - INFO - Nombre de filtrages : 1
+2024-10-21 10:32:55,834 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:32:55,844 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:32:55,845 - INFO - Bouton 'Clique-moi' a été cliqué.
+2024-10-21 10:32:55,846 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:32:55,847 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:32:55,848 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:32:56,882 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:32:56,884 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:32:56,885 - INFO - Case 'Cochez-moi' cochée.
+2024-10-21 10:32:56,885 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:32:56,885 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:32:56,886 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:32:57,935 - INFO - Graphique de paires affiché.
+2024-10-21 10:32:57,938 - INFO - DataFrame filtré affiché.
+2024-10-21 10:32:57,939 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:32:58,893 - INFO - Graphique de paires filtré affiché.
+2024-10-21 10:32:58,894 - INFO - Nombre de filtrages : 2
+2024-10-21 10:33:05,474 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:33:05,480 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:33:05,482 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:33:05,483 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:33:05,484 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:33:06,958 - INFO - Graphique de paires affiché.
+2024-10-21 10:33:06,961 - INFO - DataFrame filtré affiché.
+2024-10-21 10:33:06,962 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:33:07,995 - INFO - Graphique de paires filtré affiché.
+2024-10-21 10:33:07,996 - INFO - Nombre de filtrages : 1
+2024-10-21 10:33:22,334 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:33:22,338 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:33:22,340 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:33:22,342 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:33:22,343 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:33:23,656 - INFO - Graphique de paires affiché.
+2024-10-21 10:33:23,659 - INFO - DataFrame filtré affiché.
+2024-10-21 10:33:23,660 - INFO - Détails sur l'espèce versicolor affichés.
+2024-10-21 10:33:24,536 - INFO - Graphique de paires filtré affiché.
+2024-10-21 10:33:24,537 - INFO - Nombre de filtrages : 2
+2024-10-21 10:33:36,925 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:33:36,938 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:33:36,940 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:33:36,941 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:33:36,943 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:33:38,272 - INFO - Graphique de paires affiché.
+2024-10-21 10:33:38,274 - INFO - DataFrame filtré affiché.
+2024-10-21 10:33:38,275 - INFO - Détails sur l'espèce versicolor affichés.
+2024-10-21 10:33:39,136 - INFO - Graphique de paires filtré affiché.
+2024-10-21 10:33:39,136 - INFO - Nombre de filtrages : 3
+2024-10-21 10:39:06,923 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:39:06,927 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:39:06,927 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:39:06,928 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:39:06,928 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:39:06,929 - INFO - Chargement des données Iris.
+2024-10-21 10:39:06,933 - INFO - DataFrame filtré affiché.
+2024-10-21 10:39:06,936 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:39:08,261 - INFO - Graphique de paires affiché.
+2024-10-21 10:39:08,262 - INFO - Nombre de filtrages : 1
+2024-10-21 10:39:51,977 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:39:51,986 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:39:51,987 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:39:51,988 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:39:51,989 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:39:51,993 - INFO - DataFrame filtré affiché.
+2024-10-21 10:39:51,996 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:39:53,353 - INFO - Graphique de paires affiché.
+2024-10-21 10:39:53,353 - INFO - Nombre de filtrages : 2
+2024-10-21 10:39:53,357 - INFO - Fichier CSV téléchargé et affiché.
+2024-10-21 10:39:53,360 - INFO - Bouton de téléchargement du fichier CSV affiché.
+2024-10-21 10:42:26,975 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:42:26,984 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:42:26,985 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:42:26,985 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:42:26,986 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:42:26,986 - INFO - Chargement des données Iris.
+2024-10-21 10:42:26,999 - INFO - DataFrame filtré affiché.
+2024-10-21 10:42:27,001 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:42:28,403 - INFO - Graphique de paires affiché.
+2024-10-21 10:42:28,403 - INFO - Nombre de filtrages : 1
+2024-10-21 10:59:21,531 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:59:40,861 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:59:57,879 - INFO - Affichage de texte initial terminé.
+2024-10-21 10:59:57,909 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 10:59:57,910 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 10:59:57,910 - INFO - Option sélectionnée : Option 1
+2024-10-21 10:59:57,910 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 10:59:57,921 - INFO - DataFrame filtré affiché.
+2024-10-21 10:59:57,925 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 10:59:59,331 - INFO - Graphique de paires affiché.
+2024-10-21 10:59:59,331 - INFO - Nombre de filtrages : 1
+2024-10-21 11:07:01,257 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:07:01,282 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:07:01,283 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:07:01,284 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:07:01,284 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:07:01,295 - INFO - DataFrame filtré affiché.
+2024-10-21 11:07:01,299 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:07:02,607 - INFO - Graphique de paires affiché.
+2024-10-21 11:07:02,607 - INFO - Nombre de filtrages : 1
+2024-10-21 11:08:58,475 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:08:58,478 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:08:58,479 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:08:58,479 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:08:58,480 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:08:58,482 - INFO - DataFrame filtré affiché.
+2024-10-21 11:08:58,484 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:08:59,804 - INFO - Graphique de paires affiché.
+2024-10-21 11:08:59,805 - INFO - Nombre de filtrages : 1
+2024-10-21 11:10:40,231 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:10:40,236 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:10:40,237 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:10:40,238 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:10:40,239 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:10:40,243 - INFO - DataFrame filtré affiché.
+2024-10-21 11:10:40,247 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:10:41,654 - INFO - Graphique de paires affiché.
+2024-10-21 11:10:41,654 - INFO - Nombre de filtrages : 1
+2024-10-21 11:13:00,347 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:13:00,351 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:13:00,352 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:13:00,353 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:13:00,353 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:13:00,357 - INFO - DataFrame filtré affiché.
+2024-10-21 11:13:00,360 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:13:01,710 - INFO - Graphique de paires affiché.
+2024-10-21 11:13:01,710 - INFO - Nombre de filtrages : 1
+2024-10-21 11:13:43,276 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:13:43,281 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:13:43,283 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:13:43,284 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:13:43,284 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:13:43,287 - INFO - DataFrame filtré affiché.
+2024-10-21 11:13:43,290 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:13:44,634 - INFO - Graphique de paires affiché.
+2024-10-21 11:13:44,634 - INFO - Nombre de filtrages : 1
+2024-10-21 11:18:33,606 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:18:33,642 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:18:33,642 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:18:33,643 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:18:33,643 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:18:33,652 - INFO - DataFrame filtré affiché.
+2024-10-21 11:18:33,657 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:18:35,248 - INFO - Graphique de paires affiché.
+2024-10-21 11:18:35,249 - INFO - Nombre de filtrages : 1
+2024-10-21 11:19:29,844 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:19:29,849 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:19:29,849 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:19:29,850 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:19:29,850 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:19:29,853 - INFO - DataFrame filtré affiché.
+2024-10-21 11:19:29,855 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:19:31,148 - INFO - Graphique de paires affiché.
+2024-10-21 11:19:31,148 - INFO - Nombre de filtrages : 1
+2024-10-21 11:21:22,768 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:21:22,772 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:21:22,773 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:21:22,774 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:21:22,774 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:21:22,778 - INFO - DataFrame filtré affiché.
+2024-10-21 11:21:22,780 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:21:24,186 - INFO - Graphique de paires affiché.
+2024-10-21 11:21:24,187 - INFO - Nombre de filtrages : 1
+2024-10-21 11:21:46,021 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:21:46,025 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:21:46,026 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:21:46,027 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:21:46,027 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:21:46,030 - INFO - DataFrame filtré affiché.
+2024-10-21 11:21:46,032 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:21:47,432 - INFO - Graphique de paires affiché.
+2024-10-21 11:21:47,433 - INFO - Nombre de filtrages : 1
+2024-10-21 11:22:26,282 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:22:26,286 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:22:26,287 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:22:26,287 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:22:26,288 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:22:26,291 - INFO - DataFrame filtré affiché.
+2024-10-21 11:22:26,294 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:22:27,700 - INFO - Graphique de paires affiché.
+2024-10-21 11:22:27,701 - INFO - Nombre de filtrages : 1
+2024-10-21 11:24:23,726 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:24:23,730 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:24:23,730 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:24:23,731 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:24:23,731 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:24:23,734 - INFO - DataFrame filtré affiché.
+2024-10-21 11:24:23,736 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:24:25,083 - INFO - Graphique de paires affiché.
+2024-10-21 11:24:25,083 - INFO - Nombre de filtrages : 1
+2024-10-21 11:24:58,831 - INFO - Affichage de texte initial terminé.
+2024-10-21 11:24:58,835 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 11:24:58,836 - INFO - Texte saisi par l'utilisateur : 
+2024-10-21 11:24:58,837 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 11:24:58,837 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 11:24:58,840 - INFO - DataFrame filtré affiché.
+2024-10-21 11:24:58,842 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 11:25:00,176 - INFO - Graphique de paires affiché.
+2024-10-21 11:25:00,176 - INFO - Nombre de filtrages : 1
