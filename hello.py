@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import logging
+from cryptography.fernet import Fernet
 
 # Configuration du logging
 logging.basicConfig(
@@ -10,6 +11,18 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[logging.FileHandler("app.log"), logging.StreamHandler()]
 )
+
+# # Configuration de la clé de chiffrement (à utiliser de manière sécurisée)
+# fernet = Fernet(b'your_key_here')
+
+# # Fonctions de chiffrement
+# def encrypt_data(data):
+#     """Chiffre les données."""
+#     return fernet.encrypt(data.encode())
+
+# def decrypt_data(token):
+#     """Déchiffre les données."""
+#     return fernet.decrypt(token).decode()
 
 # Fonctions utilitaires
 @st.cache
@@ -43,9 +56,14 @@ def log_user_interaction():
         st.write("Case cochée ! ✔️")
         logging.info("Case 'Cochez-moi' cochée.")
 
-    user_input = st.text_input("Saisissez quelque chose 📝")
-    st.write(f"Vous avez saisi : {user_input}")
-    logging.info(f"Texte saisi par l'utilisateur : {user_input}")
+    user_input = st.text_input("Saisissez quelque chose à chiffrer 📝")
+    if user_input:
+        encrypted_data = encrypt_data(user_input)
+        st.write(f"Données chiffrées : {encrypted_data}")
+
+        decrypted_data = decrypt_data(encrypted_data)
+        st.write(f"Données déchiffrées : {decrypted_data}")
+        logging.info("Données utilisateur chiffrées et déchiffrées")
 
     choix = st.selectbox("Choisissez une option", ["Option 1 🚀", "Option 2 🌟", "Option 3 🔥"])
     st.write(f"Vous avez choisi : {choix}")
