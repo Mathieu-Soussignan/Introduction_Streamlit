@@ -26,7 +26,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest test_hello.py
+        pytest test/test_hello.py
 
   deploy:
     runs-on: ubuntu-latest
