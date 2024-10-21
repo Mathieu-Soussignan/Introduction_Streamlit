@@ -225,3 +225,12 @@
 2024-10-21 11:38:33,191 - INFO - Détails sur l'espèce setosa affichés.
 2024-10-21 11:38:34,646 - INFO - Graphique de paires affiché.
 2024-10-21 11:38:34,646 - INFO - Nombre de filtrages : 1
+2024-10-21 12:04:56,906 - INFO - Affichage de texte initial terminé.
+2024-10-21 12:04:56,929 - INFO - Affichage du DataFrame et du tableau terminé.
+2024-10-21 12:04:56,930 - INFO - Option sélectionnée : Option 1 🚀
+2024-10-21 12:04:56,931 - INFO - Valeur du curseur sélectionnée : 0
+2024-10-21 12:04:56,931 - INFO - Chargement des données Iris.
+2024-10-21 12:04:56,948 - INFO - DataFrame filtré affiché.
+2024-10-21 12:04:56,952 - INFO - Détails sur l'espèce setosa affichés.
+2024-10-21 12:04:58,520 - INFO - Graphique de paires affiché.
+2024-10-21 12:04:58,520 - INFO - Nombre de filtrages : 1

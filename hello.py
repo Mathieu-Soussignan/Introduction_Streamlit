@@ -56,14 +56,14 @@ def log_user_interaction():
         st.write("Case cochée ! ✔️")
         logging.info("Case 'Cochez-moi' cochée.")
 
-    user_input = st.text_input("Saisissez quelque chose à chiffrer 📝")
-    if user_input:
-        encrypted_data = encrypt_data(user_input)
-        st.write(f"Données chiffrées : {encrypted_data}")
+    # user_input = st.text_input("Saisissez quelque chose à chiffrer 📝")
+    # if user_input:
+    #     # encrypted_data = encrypt_data(user_input)
+    #     st.write(f"Données chiffrées : {encrypted_data}")
 
-        decrypted_data = decrypt_data(encrypted_data)
-        st.write(f"Données déchiffrées : {decrypted_data}")
-        logging.info("Données utilisateur chiffrées et déchiffrées")
+    #     decrypted_data = decrypt_data(encrypted_data)
+    #     st.write(f"Données déchiffrées : {decrypted_data}")
+    #     logging.info("Données utilisateur chiffrées et déchiffrées")
 
     choix = st.selectbox("Choisissez une option", ["Option 1 🚀", "Option 2 🌟", "Option 3 🔥"])
     st.write(f"Vous avez choisi : {choix}")
