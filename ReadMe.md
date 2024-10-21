@@ -1,24 +1,28 @@
-# Introduction à Streamlit et Analyse des données Iris
+# Introduction à Streamlit : Visualisation et Analyse de Données
 
-Cette application Streamlit est un exemple d'introduction aux fonctionnalités de base de Streamlit, ainsi qu'une analyse des données du jeu de données *Iris*. Elle inclut des fonctionnalités d'affichage, de filtrage de données, de gestion des interactions utilisateur, de visualisation de graphiques, et de téléchargement de fichiers.
+Cette application Streamlit est un projet pédagogique visant à explorer les fonctionnalités de base de Streamlit à travers deux modules principaux : la visualisation interactive d'une fonction affine et l'analyse de données à partir de fichiers CSV. Elle inclut des fonctionnalités d'affichage, de visualisation, de filtrage de données, et d'interactions utilisateur.
 
 ## Fonctionnalités
 
-- **Affichage de texte** : Utilisation de `st.title`, `st.header`, `st.subheader`, et `st.write` pour afficher différents niveaux de texte.
-- **Affichage de données** : Affichage de DataFrames et de tableaux à l'aide de `st.dataframe` et `st.table`.
-- **Interactions utilisateur** : 
-  - Bouton (`st.button`)
-  - Case à cocher (`st.checkbox`)
-  - Champ de saisie de texte (`st.text_input`)
-  - Sélecteur déroulant (`st.selectbox`)
-  - Curseur (`st.slider`)
+### Page 0 : Visualisation interactive d'une fonction affine
+
+- **Visualisation dynamique de la fonction affine `y = ax + b`** :
+  - Les utilisateurs peuvent ajuster les paramètres `a` (pente) et `b` (ordonnée à l'origine) à l'aide de sliders interactifs.
+  - Le graphique de la fonction est mis à jour en temps réel en fonction des valeurs choisies.
+- **Affichage de l'équation de la droite** :
+  - L'équation de la fonction est affichée dynamiquement pour refléter les modifications des paramètres.
+
+### Page 1 : Outil d'analyse de données interactif
+
+- **Chargement de données** :
+  - Les utilisateurs peuvent charger un fichier CSV via un widget `st.file_uploader`.
+  - Les premières lignes du fichier sont affichées pour un aperçu rapide.
+- **Exploration des données** :
+  - Affichage des statistiques descriptives pour mieux comprendre les données.
+  - Sélection des colonnes à afficher avec `st.multiselect` pour filtrer les données visibles.
 - **Visualisation de données** :
-  - Affichage du jeu de données *Iris* avec filtrage des colonnes.
-  - Visualisation de graphiques avec Seaborn (`sns.pairplot`) et Matplotlib (`st.pyplot`).
-- **Gestion des fichiers** :
-  - Téléchargement d'un fichier CSV à l'aide de `st.file_uploader`.
-  - Téléchargement d'un fichier généré par l'application à l'aide de `st.download_button`.
-- **Journalisation des événements** : Utilisation de la bibliothèque `logging` pour suivre les actions de l'utilisateur.
+  - Création d'un nuage de points interactif pour visualiser les relations entre deux colonnes sélectionnées par l'utilisateur.
+  - Utilisation de Seaborn et Matplotlib pour générer les graphiques.
 
 ## Installation
 
@@ -27,80 +31,75 @@ Pour exécuter cette application, assurez-vous d'avoir Python installé. Ensuite
 1. Clonez ce dépôt :
    ```bash
    git clone https://github.com/ton-utilisateur/ton-repo.git
-
    ```
 
 2. Accédez au répertoire du projet :
    ```bash
    cd ton-repo
-
    ```
 
 3. Installez les dépendances :
    ```bash
    pip install -r requirements.txt
-
    ```
 
-    Assurez-vous que le fichier requirements.txt contient les bibliothèques nécessaires, par exemple :
-    ```bash
-    streamlit
-    pandas
-    seaborn
-    matplotlib
-
-    ```
+   Le fichier `requirements.txt` doit inclure les bibliothèques suivantes :
+   ```text
+   streamlit
+   pandas
+   numpy
+   seaborn
+   matplotlib
+   ```
 
 ## Utilisation
 
 Pour lancer l'application, exécutez la commande suivante :
    ```bash
-   streamlit run app.py
-
+   streamlit run hello.py
    ```
-Cela ouvrira l'application dans votre navigateur par défaut. Vous pourrez alors interagir avec l'interface Streamlit.
+Cela ouvrira l'application dans votre navigateur par défaut, où vous pourrez naviguer entre les pages et interagir avec les modules.
 
 ## Structure du Code
 
-- app.py : Fichier principal contenant le code de l'application Streamlit.
-- app.log : Fichier de journalisation généré par l'application pour suivre les événements.
+- **pages/0_fonction_affine.py** : Module pour la visualisation interactive d'une fonction affine.
+- **pages/1_data_analyst.py** : Module pour l'analyse interactive de données à partir d'un fichier CSV.
+- **hello.py** : Fichier principal pour configurer l'application Streamlit.
+- **hello.log** : Fichier de journalisation généré pour suivre les événements et interactions utilisateur.
 
 ## Fonctionnement de l'Application
 
-### Affichage de texte et de données
+### Visualisation interactive d'une fonction affine (Page 0)
 
-L'application affiche différents niveaux de texte pour montrer les capacités de mise en forme de Streamlit, ainsi qu'un exemple de DataFrame pour illustrer les fonctionnalités d'affichage de données.
+L'application permet aux utilisateurs d'explorer les variations d'une fonction affine en modifiant les valeurs de `a` et `b` à l'aide de sliders, avec un affichage en temps réel du graphique et de l'équation.
 
-## Visualisation des données Iris
+### Outil d'analyse de données (Page 1)
 
-L'application charge le jeu de données Iris, permet de filtrer les colonnes et d'afficher des graphiques de paires pour visualiser les relations entre les variables.
-
-## Gestion des fichiers
-
-Les utilisateurs peuvent télécharger un fichier CSV, voir son contenu dans l'application, et télécharger un fichier généré par l'application.
+L'application permet de :
+- Charger un fichier CSV et d'explorer les données.
+- Afficher les statistiques descriptives.
+- Visualiser les relations entre les variables grâce à un nuage de points interactif.
 
 ## Tests
 
-Des tests unitaires peuvent être écrits pour les fonctions principales. Par exemple, les tests unitaires pour vérifier le chargement des données, le filtrage des colonnes et la récupération des détails d'une espèce.
+Des tests unitaires peuvent être créés pour vérifier les principales fonctions de l'application. Par exemple :
+- Tests pour le chargement de données et le traitement des fichiers CSV.
+- Tests pour la visualisation de la fonction affine.
 
 Pour exécuter les tests unitaires, utilisez la commande suivante :
 
 ```bash
-pytest test_hello.py
-
+pytest test/
 ```
+
 ## Journalisation
 
-L'application utilise le module logging pour enregistrer les événements importants dans un fichier app.log. Les événements tels que les interactions utilisateur, le chargement des données, et les erreurs éventuelles sont journalisés pour faciliter le débogage.
+L'application utilise le module `logging` pour enregistrer les événements importants, tels que les interactions utilisateur et le chargement des données, dans le fichier `hello.log` afin de faciliter le suivi des actions et le débogage.
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer l'application, n'hésitez pas à faire une (pull request) ou à ouvrir une request.
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer l'application, n'hésitez pas à faire une **pull request** ou à ouvrir une **issue**.
 
 ## Auteur
 
 - Mathieu Soussignan.
-
-
-
-

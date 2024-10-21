@@ -115,7 +115,7 @@ st.markdown(
 
 st.image('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2JhaGxjZjRxZjE2Mml1Y242MjhzNnBtMDBtYTBqMndmZDl4am9jMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zXmbOaTpbY6mA/giphy.gif', caption="GIF animé", use_column_width=True)
 
-# Affichage de texte
+# Affichage du texte
 st.title("Introduction à Streamlit! 🚀")
 st.header("Voici un en-tête 🎈")
 st.subheader("Et un sous-en-tête 🌈")
