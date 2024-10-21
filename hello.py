@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import logging
-from cryptography.fernet import Fernet
+# from cryptography.fernet import Fernet
 
 # Configuration du logging
 logging.basicConfig(
